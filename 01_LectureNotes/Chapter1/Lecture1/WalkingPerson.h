@@ -24,7 +24,6 @@ namespace jm
 			drawFilledCircle(Colors::gold, 0.08f);
 			translate(0.05f, 0.03f);
 			drawFilledCircle(Colors::white, 0.01f); // while eye
-
 			endTransformation();
 
 			// red body
