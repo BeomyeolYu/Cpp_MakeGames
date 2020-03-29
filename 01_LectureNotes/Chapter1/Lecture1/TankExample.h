@@ -10,6 +10,7 @@ namespace jm
 		vec2 center = vec2(0.0f, 0.0f);
 		//vec2 direction = vec2(1.0f, 0.0f, 0.0f);
 		int numBullet = 0;
+
 		void draw()
 		{
 			beginTransformation();
@@ -31,7 +32,6 @@ namespace jm
 		vec2 center = vec2(0.0f, 0.0f);
 		vec2 velocity = vec2(0.0f, 0.0f);
 		
-
 		void draw()
 		{
 			beginTransformation();
@@ -93,8 +93,8 @@ namespace jm
 				bullet[tank.numBullet]->center.y += 0.1f;
 				bullet[tank.numBullet]->velocity = vec2(2.0f, 0.0f);
 
-				std::cout << tank.numBullet << std::endl;
-				std::cout << bullet[tank.numBullet] << std::endl;
+				//std::cout << tank.numBullet << std::endl;
+				//std::cout << bullet[tank.numBullet] << std::endl;
 				tank.numBullet += 1;
 
 				if (tank.numBullet == 9)  tank.numBullet = 0;
@@ -114,6 +114,7 @@ namespace jm
 
 			// rendering
 			tank.draw();
+
 			if (bullet[0] != nullptr) bullet[0]->draw();
 			if (bullet[1] != nullptr) bullet[1]->draw();
 			if (bullet[2] != nullptr) bullet[2]->draw();
