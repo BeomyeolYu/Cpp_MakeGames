@@ -1,11 +1,14 @@
 #pragma once
 
 #include "RGB.h"
+//#include "RandomNumberGenerator.h"
 
 namespace jm
 {
 	namespace Colors
 	{
+		//RandomNumberGenerator rnd; // TODO:
+
 		// RGB color table http://www.rapidtables.com/web/color/RGB_Color.htm
 		const RGB red(255, 0, 0);
 		const RGB green(0, 255, 0);
@@ -18,5 +21,6 @@ namespace jm
 		const RGB white(255, 255, 255);
 		const RGB gold(255, 223, 0);
 		const RGB silver(192, 192, 192);
+		//const RGB random(rnd.getInt(0, 255), rnd.getInt(0, 255), rnd.getInt(0, 255));
 	}
 }

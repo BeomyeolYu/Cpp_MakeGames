@@ -19,6 +19,7 @@ namespace jm
 {
 	using vec2 = Vector2<float>;
 	using vec3 = Vector3<float>;
+	using vec3_int = Vector3<int>;
 
 	class Game2D
 	{
