@@ -53,5 +53,6 @@
     <ClInclude Include="Pentagon.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="GeometricObject.h" />
+    <ClInclude Include="Box.h" />
   </ItemGroup>
 </Project>

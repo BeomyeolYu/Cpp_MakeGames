@@ -25,6 +25,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Box.h" />
     <ClInclude Include="GeometricObject.h" />
     <ClInclude Include="Square.h" />
     <ClInclude Include="Circle.h" />
