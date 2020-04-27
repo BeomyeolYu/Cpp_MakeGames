@@ -9,6 +9,7 @@ namespace jm
 	public:
 		vec2 pos;
 		vec2 vel;
+		vec2 n; // Normal vector
 		RGB color = Colors::hotpink;
 		float radius = 0.1f;
 		float mass = 1.0f;
